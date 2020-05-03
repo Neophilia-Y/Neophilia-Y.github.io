@@ -49,6 +49,7 @@ function handlerInput(event){
 
 function inputList(){
     addBtn.addEventListener("click",handlerInput);
+    formContainer.addEventListener("submit",handlerInput);
 }
 
 function checkedHandler(e){
