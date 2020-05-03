@@ -162,3 +162,17 @@ ul li.checked::before {
 .addBtn:hover {
   background-color: #bbb;
 }
+
+input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+input:focus::-moz-placeholder {
+    color: transparent;
+}
+input:focus:-ms-input-placeholder {
+    color: transparent;
+}
+input:focus::-ms-input-placeholder {
+    color: transparent;
+}
+  
